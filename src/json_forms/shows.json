@@ -1,0 +1,34 @@
+{
+    "title": "Show Details",
+    "Description": "Details of Show",
+    "type": "object",
+    "required": [
+        "Screen Name", "Theatre Name", "Opening Time", "Closing Time", "Movie Name", "Show Date"
+    ],
+    "properties":{
+        "Screen Name": {
+            "type": "string",
+            "title": "Screen Name"
+        },
+        "Theatre Name": {
+            "type": "string",
+            "title": "Theatre Name"
+        },
+        "Opening Time": {
+            "type": "string",
+            "title": "Opening Time"
+        },
+        "Closing Time": {
+            "type": "string",
+            "title": "Closing Time"
+        },
+        "Movie Name": {
+            "type": "string",
+            "title": "Movie Name"
+        },
+        "Show Date": {
+            "type": "string",
+            "title": "Show Date"
+        }
+    }
+}

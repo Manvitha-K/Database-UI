@@ -1,0 +1,51 @@
+{
+    "title": "Movie Details",
+    "Description": "Details of a movie",
+    "type": "object",
+    "required": [
+        "Movie Name", "Released year", "Production house", "Budget", "Director",
+        "Producer", "Movie Duration", "Genre", "Language", "Cast & Crew"
+    ],
+    "properties":{
+        "Movie Name": {
+            "type": "string",
+            "title": "Movie Name"
+        },
+        "Released year": {
+            "type": "string",
+            "title": "Released year"
+        },
+        "Production house": {
+            "type": "string",
+            "title": "Production house"
+        },
+        "Budget": {
+            "type": "integer",
+            "title": "Budget"
+        },
+        "Director": {
+            "type": "string",
+            "title": "Director"
+        },
+        "Producer": {
+            "type": "string",
+            "title": "Producer"
+        },
+        "Movie Duration": {
+            "type": "integer",
+            "title": "Movie Duration"
+        },
+        "Genre": {
+            "type": "string",
+            "title": "Genre"
+        },
+        "Language": {
+            "type": "string",
+            "title": "Language"
+        },
+        "Cast & Crew": {
+            "type": "string",
+            "title": "Cast & Crew"
+        }
+    }
+}

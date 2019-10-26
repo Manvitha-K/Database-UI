@@ -1,0 +1,30 @@
+{
+    "title": "Movie Details",
+    "Description": "Details of a movie",
+    "type": "object",
+    "required": [
+        "Movie Name", "Released year", "User Id", "Rating", "Review"
+    ],
+    "properties":{
+        "Movie Name": {
+            "type": "string",
+            "title": "Movie Name"
+        },
+        "Released year": {
+            "type": "string",
+            "title": "Released year"
+        },
+        "User Id": {
+            "type": "string",
+            "title": "User Id"
+        },
+        "Rating": {
+            "type": "integer",
+            "title": "Rating"
+        },
+        "Review": {
+            "type": "string",
+            "title": "Review"
+        }
+    }
+}
